@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins',sans-serif;
+  box-sizing: border-box;
+  
+}
+body {
+  
+  overflow: hidden;
+}
+.card{
+  width: 90%;
+  max-width: 470px;
+  backdrop-filter: blur(20px);
+  
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  
+  
+}
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background:#ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 50px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+
+
+}
+.search button{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px ;
+  cursor: pointer;
+}
+
+.search img{
+  width: 16px;
+}
+
+.weather img{
+  height: 90px;
+  justify-content: center;
+
+}
+.weather-icon{
+  margin-top: 40px;
+}
+.weather h1{
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2{
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img{
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.humidity, wind{
+  font-size: 15px;
+  margin-top: -6px;
+}
+.weather{
+  display: none;
+}
+.error{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.app-name{
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  display: flex;
+  font-size: large;
+  transition: opacity 0.30s ease-in-out;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-top: 400px;
+  
+  
+}
+
+footer p {
+  font-size: 14px;
+  color: #999;
+}
